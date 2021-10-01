@@ -1,0 +1,24 @@
+{
+  "name": "replay-stopped-at-0-hits-line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "record": "replay-node ./node_modules/.bin/tsc --noEmit || replay-recordings view-latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/replay-stopped-at-0-hits-line.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andarist/replay-stopped-at-0-hits-line/issues"
+  },
+  "homepage": "https://github.com/Andarist/replay-stopped-at-0-hits-line#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "prettier": {}
+}
